@@ -14,7 +14,6 @@ document
 
       if (startInput.value === "Play") {
         localStorage.setItem("playersNumber", players);
-        window.location.href = "tournament.html";
       } else startInput.value = "Play";
     } else if (players <= 0) {
       conditionalMessage.innerHTML = "Numbers must be greater than 0";
